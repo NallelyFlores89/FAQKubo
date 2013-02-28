@@ -1,0 +1,25 @@
+
+
+.nav-bar li a { 
+	color: #2ba6cb; 
+}
+
+.nav-bar li a:hover { 
+	background: #2E2E2E; 
+}
+
+.clickeado {
+	background:#2E2E2E;
+}
+
+h3 a {
+  background: url("../img/sprite.png") 15px 13px no-repeat;
+  display: block;
+  padding: 10px;
+  padding-left: 32px;
+  margin: 0;
+  font-weight: normal;
+  border-bottom: 1px solid rgba(128, 10, 85, 0.5);
+}
+
+h3.open a { background-position: 13px -25px; }

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<!--Foundation-->
+		<script src="js/jquery-1.8.2.js"></script>
+		<script src="foundation/javascripts/foundation.min.js"></script>
+		<script src="foundation/javascripts/modernizr.foundation.js"></script>
+		<script src="foundation/javascripts/app.js"></script>
+		
+		<script src="collapsed/src/jquery.collapse.js"></script>
+		
+		<link rel="stylesheet" href="foundation/stylesheets/app.css">		<link rel="stylesheet" href="foundation/stylesheets/foundation.min.css">
+
+		
+		<link rel="stylesheet" href="css/qaf.css">
+		
+		<script src="js/qaf.js"></script>
+
+	</head>
+	
+	<body>
+		<div class="row">
+			<div class="twelve columns">
+				<h1>¿Help?</h1>
+				<p>hduaisdjoasjodjoasjdojaosd</p>			</div>			
+		</div>
+
+		<div class="row">
+			<div class="eigth columns offset-by-two">
+				<ul class="nav-bar">
+					<li id="seccion1" class="clickeado"><a href="#">Sección1</a></li>
+					<li id="seccion2"><a href="#">Sección2</a></li>
+					<li id="seccion3"><a href="#">Sección3</a></li>
+					<li id="seccion4"><a href="#">Sección4</a></li>
+				</ul>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div id="bloque1" class="twelve columns">
+	        	<h3>pregunta1</h3>
+		        <div>
+                	<p>Respuesta1</p>
+                	<p>Respuesta2</p>
+			        <p><img src="img/neko.gif"></p>
+                   	<p>Respuesta3</p>
+
+			    </div>
+		        <h3>pregunta2</h3>
+		        	<div>
+			        	<p>Respuesta1</p>
+	                	<p>Respuesta2</p>
+		        	</div>
+			</div> <!--fin bloque1-->
+		</div>
+		<div class="row">
+			<div id="bloque2" class="twelve columns"> 
+				<h3>pregunta1</h3>
+		        <div>
+                	<p>Respuesta1</p>
+                	<p>Respuesta2</p>
+                   	<p>Respuesta3</p>
+
+			    </div>
+		        <h3>pregunta2</h3>
+		        	<div>
+			        	<p>Respuesta1</p>
+	                	<p>Respuesta2</p>
+		        	</div>
+		 	</div> <!--bloque2-->
+		 </div>
+		<div class="row">
+			<div id="bloque3" class="twelve columns"> 
+				<h3>pregunta1</h3>
+		        <div>
+                	<p>Respuesta1</p>
+                	<p>Respuesta2</p>
+                   	<p>Respuesta3</p>
+			    </div>
+		        <h3>pregunta2</h3>
+	        	<div>
+		        	<p>Respuesta1</p>
+                	<p>Respuesta2</p>
+	        	</div>
+	  		</div> <!--bloque3-->
+		</div>
+
+		<div class="row">
+			<div id="bloque4" class="twelve columns"> 
+				<h3>pregunta1</h3>
+		        <div>
+                	<p>Respuesta1</p>
+                	<p>Respuesta2</p>
+                   	<p>Respuesta3</p>
+
+			    </div>
+		        <h3>pregunta2</h3>
+		        	<div>
+			        	<p>Respuesta1</p>
+	                	<p>Respuesta2</p>
+		        	</div>
+			</div> <!--bloque4-->
+   		</div>		
+	</body>
+	
+	<footer>
+		<script>
+	    	new jQueryCollapse($("#bloque1, #bloque2, #bloque3, #bloque4"), {
+	        	open: function() {
+	          	this.slideDown(350);
+	         },
+	         close: function() {
+	            this.slideUp(350);
+	          }
+	        });
+		</script>
+	</footer>
+	
+</html>
